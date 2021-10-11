@@ -11,7 +11,7 @@ In the Northwind database, there is a many-to-many relationship between tables E
 If you are creating a project where the data is predictable, in terms of structure, size, and frequency of access, *relational* databases are the best choice.
 If the data you are storing needs to be flexible in terms of shape or size, or if it needs to be open to change in future, then a *non-relational* database is the answer.
 
-> "In a document database such as MongoDB the smallest unit is a document. In MongoDB, documents are stored in a collection, which in turn make up a database. Document are analogous to rows in a SQL table, but there is one big difference: not every document needs to have the same structure—each of them can have different fields and that is a very useful feature in many situations."
+> "In a document database such as MongoDB the smallest unit is a document. In MongoDB, documents are stored in a collection, which in turn make up a database. Document are analogous to rows in a SQL table, but there is one big difference: not every document needs to have the same structure—each of them can have different fields and that is a very useful feature in many situations." (https://derickrethans.nl/introduction-to-document-databases.html)
 
 ## What is "NewSQL", and what is it trying to achieve?
 NewSQL is a category of SQL database products that address the performance and scalability issues posed by traditional online transaction processing (OLTP) relational database management systems (RDBMS). 
