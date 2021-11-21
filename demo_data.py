@@ -33,7 +33,7 @@ xy_at_least_5 = f"""SELECT COUNT(*) FROM demo WHERE x >= 5 AND y >= 5"""
 result = curs.execute(xy_at_least_5).fetchall()
 print("How many rows where x and y are at least 5?:", result)
 
-unique_y = curs.execute('SELECT COUNT(DISTINCT y) FROM Demo').fetchall()
+unique_y = curs.execute('SELECT COUNT(DISTINCT y) FROM demo').fetchall()
 print(f"How many unique values of y are there?:",unique_y)
 
 conn.commit()
